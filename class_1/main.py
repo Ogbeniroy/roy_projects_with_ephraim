@@ -28,17 +28,12 @@ def firstbox(height,length:int,steps):
             space_character += end_character - 1
             for i in range(1,height - 1):
                 print("*"+" "* space_character +"*")
-        
-                
-        print("*"* (space_character + 2))
-            
-            
-            
-            
-            
        
+        print("*"* (space_character + 2))            
 
-firstbox(6,7,5)
+print("Welcome to my staircase builder  ")
+
+firstbox(4,5,7)
 firstbox(8,9,6)
 
 
