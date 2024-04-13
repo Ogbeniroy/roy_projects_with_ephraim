@@ -1,14 +1,14 @@
-def firstbox(height,length:int,steps):
+def four_sides_staircase(height,length:int,steps):
     '''
     A function that draws a hallow rectangle.
         params:
             -length: The length of the rectangle.
             -height: The height of the rectangle.
-            -remove_top: The length to remove from the top part of the rectangle starting from the left.
-            -remove_btm: The length to remove from the bottom part of the rectangle starting from the left.
-            -keep_first: Whether to keep the first asterik or not.
+            -steps: The number of steps for the staircase.
+            -end_character: number of asterics needed at the end of the line.
+            -space_character: number of empty spaces needed.
             
-            -append: append an asterik to the begining of a removed line.
+            
 '''
     end_character = (length + 1)
     space_character = (length-2)
@@ -44,9 +44,9 @@ def firstbox(height,length:int,steps):
 
 print("Welcome to my staircase builder  ")
 
-firstbox(4,5,7)
-firstbox(8,9,6)
-firstbox(4,6,10)
+four_sides_staircase(4,5,7)
+four_sides_staircase(8,9,6)
+four_sides_staircase(4,6,10)
 
 
         
