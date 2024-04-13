@@ -1,4 +1,15 @@
 def firstbox(height,length:int,steps):
+    '''
+    A function that draws a hallow rectangle.
+        params:
+            -length: The length of the rectangle.
+            -height: The height of the rectangle.
+            -remove_top: The length to remove from the top part of the rectangle starting from the left.
+            -remove_btm: The length to remove from the bottom part of the rectangle starting from the left.
+            -keep_first: Whether to keep the first asterik or not.
+            
+            -append: append an asterik to the begining of a removed line.
+'''
     end_character = (length + 1)
     space_character = (length-2)
     if steps ==1:
@@ -35,7 +46,7 @@ print("Welcome to my staircase builder  ")
 
 firstbox(4,5,7)
 firstbox(8,9,6)
-
+firstbox(4,6,10)
 
 
         
