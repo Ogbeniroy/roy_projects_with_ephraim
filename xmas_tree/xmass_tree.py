@@ -31,7 +31,7 @@ def numgen(nums):
         startnum +=2
     
         
-        
+      #cross checking things...  
     
         
     
